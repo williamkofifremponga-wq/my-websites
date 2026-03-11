@@ -1,0 +1,68 @@
+body{
+  background-color: #0f172a;
+  color: white;
+  text-align: center;
+  font-family: Arial;
+}
+
+h1{
+  color: #38bdf8;
+}
+
+button{
+  background-color: #38bdf8;
+  border: none;
+  padding: 10px 20px;
+  color: black;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+/* Section styles for scrolling */
+section {
+  height: 100vh; /* full screen height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  transition: background-color 0.5s;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #22d3ee;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+/* Link hover effect */
+a:hover {
+  color: #22d3ee;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+/* Image shadow */
+img {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  border-radius: 8px;
+}
+/* Navigation styles */
+nav {
+  background-color: #1e293b;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: #38bdf8;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #22d3ee;
+  text-decoration: underline;
+  transition: 0.3s;
+}
